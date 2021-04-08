@@ -1,1 +1,14 @@
-This is a string
+/*Landing Page*/
+
+.showcase {
+    background-image: url(./photos/teianna-marie-treasures_50.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.navigation {
+    border-bottom: 2px solid purple;
+    border-top: 2px solid purple;
+    margin-top: 525px;
+}
