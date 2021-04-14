@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*Landing Page*/
 
 .showcase {
@@ -11,4 +12,170 @@
     border-bottom: 2px solid purple;
     border-top: 2px solid purple;
     margin-top: 525px;
+=======
+
+/*Navigation*/
+
+.navigation {
+    border-top: #662c90 5px solid;
+    border-bottom: #662c90 5px solid;
+    margin-bottom: px;
+}
+
+.crownNav {
+    height: 75%;
+    width: 75%;
+}
+
+.navbar-brand {
+    width: 5%;
+}
+
+.navigationLinks {
+    color:#662c90;
+    font-weight: bold;
+}
+
+.navigationLinks:hover {
+    color: goldenrod;
+}
+
+.socialIconNav {
+    color: white;
+    background-color: #662c90;
+    border-radius: 50%;
+    padding: 10px;
+    width: 46px;
+    text-decoration: none;
+}
+
+.socialIconNav:hover {
+    background-color: goldenrod;
+    color: white;
+}
+
+.dropdown-menu {
+    background-color: #662c90;
+}
+
+.dropdown-item {
+    color: goldenrod;
+}
+
+.dropdown-item:hover {
+    background-color: white;
+    color: goldenrod;
+}
+
+.tc {
+    color: rgb(5, 170, 5);
+}
+
+.tc:hover {
+    color: rgb(5, 170, 5);
+}
+
+.dropdown-divider {
+    color: goldenrod;
+}
+
+/*Background Header*/
+
+#showcase {
+    background-image:url(./Photos/teianna-marie-photos/teianna-marie-treasures_50.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 15%;
+    background-attachment: fixed;
+    background-size: 25%;
+    height: ;
+}
+
+#bottom-images {
+    z-index: -1;
+}
+
+@media (max-width: 1200px) {
+    img#left {
+      display: none;
+    }
+  }
+
+@media (max-width: 1200px) {
+    img#right {
+      display: none;
+    }
+  }
+
+
+#left {
+    opacity: .5;
+}
+
+#right {
+    opacity: .5;
+}
+/*Main Article*/
+
+body {
+    margin: 0;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.mainA {
+    border: 5px solid #662c90;
+    border-radius: 10px 10px 0px 0px;
+    width: 70%;
+    margin: auto;
+    margin-top: 350px;
+}
+
+.treasureClubSub {
+    height: 75%;
+    width: 75%;
+}
+
+h2 {
+    color: goldenrod;
+}
+
+.btn-treasures {
+    color: goldenrod;
+    border:#662c90 solid 2px;
+}
+
+.btn-treasures:hover {
+    background-color: #662c90;
+    color: goldenrod;
+}
+
+/*Footer*/
+
+.footer {
+    background-color: #662c90;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.socialIconFoot {
+    padding: 10px;
+    font-size: px;
+    width: ;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: #662c90;
+    color: white;
+    z-index: 1;
+  }
+
+.socialIconFoot:hover {
+    color: goldenrod;
+} 
+
+.tt {
+    color: goldenrod;
+>>>>>>> wesley
 }
