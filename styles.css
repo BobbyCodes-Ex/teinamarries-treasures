@@ -1,11 +1,10 @@
-
-
 /*Navigation*/
 
 .navigation {
     border-top: #662c90 5px solid;
     border-bottom: #662c90 5px solid;
-    margin-bottom: px;
+    font-family: 'Nanum Myeongjo', serif;
+    letter-spacing: 3px;
 }
 
 .crownNav {
@@ -65,6 +64,7 @@
     color: goldenrod;
 }
 
+
 /*Background Header*/
 
 #showcase {
@@ -123,6 +123,8 @@ body {
 
 h2 {
     color: goldenrod;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
 }
 
 .btn-treasures {
@@ -135,6 +137,10 @@ h2 {
     color: goldenrod;
 }
 
+p{
+    font-family: 'Nanum Myeongjo', serif;
+}
+
 /*Footer*/
 
 .footer {
@@ -143,6 +149,8 @@ h2 {
     width: 70%;
     margin: auto;
     border-radius: 0px 0px 10px 10px;
+    font-family: 'Nanum Myeongjo', serif;
+    letter-spacing: 2px;
 }
 
 .socialIconFoot {
@@ -163,5 +171,4 @@ h2 {
 
 .tt {
     color: goldenrod;
->>>>>>> wesley
 }
