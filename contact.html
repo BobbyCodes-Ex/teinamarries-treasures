@@ -3,13 +3,28 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link href="./styles.css" rel="stylesheet">
+    <link href="contact.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Teinamarrie’s Treasures</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Dancing+Script&family=Nanum+Myeongjo&family=Zilla+Slab:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet">
+  
+  <!--Font for icons on contact page-->
+    <link rel="stylesheet" href="fonts/icomoon/style.css" />
+
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+            
+  <!-- Style -->
+  <link rel="stylesheet" href="css/contact.css" />
+
+    <title>Contact Me</title>
   </head>
     
     
@@ -63,11 +78,6 @@
           </div>
         </div>
       </nav>
-
-
-
-   
-    
    
     
 
@@ -83,40 +93,128 @@
     </header>
 
     <!--Main Article-->
+    <body>
+        <div class="content">
+          <div class="container">
+            <div class="row align-items-stretch no-gutters contact-wrap">
+              <div class="col-md-8">
+                <div class="form h-100">
+                  <h3>Send me a message</h3>
+                  <form
+                    class="mb-5"
+                    method="post"
+                    id="contactForm"
+                    name="contactForm"
+                  >
+                    <div class="row">
+                      <div class="col-md-6 form-group mb-5">
+                        <label for="" class="col-form-label">Name</label>
+                        <input
+                          type="text"
+                          class="form-control"
+                          name="name"
+                          id="name"
+                          placeholder="Your name"/>
+                      </div>
+                      <div class="col-md-6 form-group mb-5">
+                        <label for="" class="col-form-label">Email</label>
+                        <input
+                          type="text"
+                          class="form-control"
+                          name="email"
+                          id="email"
+                          placeholder="Your email"/>
+                      </div>
+                    </div>
+      
+                    <div class="row">
+                           <div class="col-md-6 form-group mb-5">
+                             <label for="" class="col-form-label">Phone</label>
+                             <input type="text" class="form-control" name="phone" id="phone"  placeholder="Phone #">
+                           </div>
+                           <div class="col-md-6 form-group mb-5">
+                             <label for="" class="col-form-label">Company</label>
+                             <input type="text" class="form-control" name="company" id="company"  placeholder="Company  name">
+                           </div>
+                         </div>
 
-    <div class="container bg-light mainA">
-      <div class="row">
-        <h2 class="text-center py-4">Welcome to Teinamarrie’s Treasures!</h2>
-      </div>
-      <div class="row">
-        <p class="text-center pb-4">Teinamarrie is a very passionate woman with many diverse and wonderful talents and interests, and Teinamarrie’s Treasures is no different. In fact, it is the culmination of all of those things in one place.</p>
-      </div>
-      <div class="row pb-4">
-        <div class="col-12 col-lg-4">
-          <img src="./Photos/teianna-marie-photos/44661613_961417084056340_6555992029422157824_n.jpg">
+                        <div class="row">
+                          <div class="col-md-12 form-group mb-5">
+                            <label for="reasonForContact" class="col-form-label">Reason for Contact</label>
+                            <select class="custom-select" id="reasonForContact" name="reasonForContact">
+              <option selected>Choose...</option>
+              <option value="eventBooking">Event Booking</option>
+              <option value="findYourTreasure">Find Your Treasure</option>
+              <option value="products">Products</option>
+              <option value="wonderfulWomenWorkshops">Wonderful Women Workshops</option>
+              <option value="treasureClub">Treasure Club</option>
+              <option value="other">Other</option>
+      
+            </select>
+                          </div>
+                        </div>
+           
+                         <div class="row">
+                           <div class="col-md-12 form-group mb-5">
+                             <label for="message" class="col-form-label">Message</label>
+                             <textarea class="form-control" name="message" id="message" cols="30" rows="4"  placeholder="Write your message"></textarea>
+                           </div>
+                         </div>
+                         <div class="row">
+                           <div class="col-md-12 form-group">
+                             <input type="submit" value="Send Message" class="btn btn-primary rounded-0 py-2 px-4">
+                             <span class="submitting"></span>
+                           </div>
+                         </div>
+                  </form>
+      
+      
+                  <div id="form-message-warning mt-4"></div> 
+                  <div id="form-message-success">
+                    Your message was sent, thank you!
+                  </div>
+      
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="contact-info h-100">
+                  <h3>Contact Information</h3>
+                  <p class="mb-5">Thank you very much for checking out my website. Please do not hesitate to fill out the contact sheet to the left of your screen if you have any questions or concerns in regards to the content, products, or materials on my website. If you would like schedule a time to book an event or consultation with me select the button below titled, "Book Now" and fill out the provided information. Have a fantastic day!</p>
+                  <ul class="list-unstyled">
+                    <li class="d-flex">
+                      <span class="wrap-icon icon-room mr-3"></span>
+                      <span class="text">Salt Lake City, UT, 84113</span>
+                    </li>
+                    <li class="d-flex">
+                      <span class="wrap-icon icon-phone mr-3"></span>
+                      <span class="text">+ (801)-638-3945</span>
+                    </li>
+                    <li class="d-flex">
+                      <span class="wrap-icon icon-envelope mr-3"></span>
+                      <span class="text">www.teinamarrie.com</span>
+                    </li>
+                  </ul>
+
+                  <div class="row">
+                    <div class="col-md-12 form-group">
+                      <script id="setmore_script" type="text/javascript" src="https://my.setmore.com/webapp/js/src/others/setmore_iframe.js"></script><a id="Setmore_button_iframe" style="float:none" href="https://my.setmore.com/bookingpage/b51535d9-e2cd-4c1b-94df-23c33a20ef0a"><img border="none" src="https://storage.googleapis.com/setmore-assets/2.0/Images/Integration/book-now-blue.svg" alt="Book an appointment with Teinamarrie's Treasures using Setmore" /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      
         </div>
-        <div class="col-12 col-lg-8 mt-5">
-          <p>Teinamarrie Scuderi is thee Divalicious Diva and genius behind her namesake company, Teinamarrie’s Treasures, where she encourages and empowers people from all walks of life to sparkle. Her vision is to help others to attain (or regain) their own individual sparkle, so that, as a ripple effect, they spread that sparkle to others who in turn spread their own sparkle – imagine how much better, how much happier this world will be once everyone is attuned to genuinely sparkling. Think glitter bomb explosion, globally! </p>
-        </div>
-      </div>
-      <div class="row">
-        <p class="text-center">She has both services and products available for purchase: from her Clutter Clearing Challenges, to her Wonderful Woman Workshops, to her Success Club and her Goal/Desire Cubes.</p>
-      </div>
-      <div class="text-center mt-4">
-        <button type="button" class="btn btn-treasures btn-lg">Find Your Treasures!</button>
-      </div>
-      <div class="row mt-5">
-        <div class="col-12 col-lg-6 text-center">
-          <a href="./Photos/teianna-marie-photos/business1.png" download><img class="image-fluid" src="./Photos/teianna-marie-photos/business1.png"></a>
-        </div>
-        <div class="col-12 col-lg-6 text-center">
-          <a href="./Photos/teianna-marie-photos/business2.png" download><img class="image-fluid" src="./Photos/teianna-marie-photos/business2.png"></a>
-        </div>
-      </div>
-      <div class="text-center my-5">
-        <img class="img-fluid treasureClubSub" src="./Photos/teianna-marie-photos/Teinamarries-Treasures-Treasure-Club-levels.png">
-      </div>
-    </div>
+      
+      
+        
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.validate.min.js"></script>
+        <script src="js/main.js"></script>
+      </body>            
 
     <!--Footer-->
     <footer>
