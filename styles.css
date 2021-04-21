@@ -106,6 +106,7 @@ body {
     margin: 0;
     font-size: 17px;
     line-height: 1.6;
+    font-family: 'Nanum Myeongjo', serif;
 }
 
 .mainA {
@@ -139,6 +140,28 @@ h2 {
 
 p{
     font-family: 'Nanum Myeongjo', serif;
+}
+
+.eventDates {
+    color: goldenrod;
+    font-weight: bolder;
+}
+
+.eventTitle {
+    color: goldenrod;
+    text-decoration: underline #662c90;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.eventPictures {
+    height: 300px;
+    width: 300px;
+}
+
+.productsTitle {
+    font-size: larger;
+    font-weight: bolder;
 }
 
 /*Footer*/
