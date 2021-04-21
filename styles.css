@@ -123,9 +123,14 @@ body {
 }
 
 h2 {
-    color: goldenrod;
+
     font-family: 'Dancing Script', cursive;
-    font-size: 50px;
+    font-size: 500%;
+    color:  #662c90;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    text-shadow: 3px 3px rgb(242,209,18);
+
 }
 
 .btn-treasures {
