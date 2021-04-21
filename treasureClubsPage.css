@@ -1,0 +1,61 @@
+
+
+* {
+    font-family: 'Crimson Pro', serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Zilla Slab', serif;   
+}
+.club {
+    box-shadow: 5px 5px 20px 6px  #662c90;;
+    width: 80%;
+    text-align: center;
+    margin: 6% 1%;
+    padding: 1%;
+    border-width: 9px;
+    border-color: rgb(242,209,18);
+    border-style:double;
+        
+}
+.clubList{
+    text-align: center;
+}
+li {
+    list-style-type: none;
+}
+lh {
+    font-weight: bolder;
+    font-size: 200%;
+    color:  #662c90;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 2px 2px rgb(242,209,18);
+}
+.levelPlus {
+    text-decoration: underline;
+}
+h1 {
+    font-size: 800%;
+    text-align: center;
+    color:  #662c90;
+    margin: 0%;
+    padding: 4% 0% 1% 0%;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    text-shadow: 3px 3px rgb(242,209,18);
+}
+.clubPrice {
+    color:  #662c90;
+    font-weight: bold;
+}
+.monthly {
+    padding-top: 10%;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+span {
+    margin-bottom: 10%;
+}
+p {
+    margin-bottom: 10%;
+}
+  

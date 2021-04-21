@@ -1,0 +1,32 @@
+* {
+    font-family: 'Crimson Pro', serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Zilla Slab', serif;   
+}
+.ebook{
+height: 50%;
+box-shadow: 2px 2px 15px 2px black;
+}
+.divineDaysSection.gratiToolsSection {
+    height: 50px;
+}
+h5 {
+    text-align: center;
+margin-top: 2%;
+font-weight: bold;
+
+}
+.download  {
+    background-color: rgb(242,209,18);
+    color: white;
+   border-style:dotted;
+}
+h1.ebookHeader {
+    font-size: 800%;
+    color:  #662c90;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    text-shadow: 3px 3px rgb(242,209,18);
+    margin-bottom: 5%;
+}
