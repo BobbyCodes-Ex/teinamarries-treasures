@@ -8,13 +8,67 @@
 }
 
 .crownNav {
-    height: 75%;
-    width: 75%;
+    height: 85%;
+    width: 85%;
+    min-width: 60px;
+}
+
+@media (max-width: 1200px) {
+    img.crownNav {
+        height: 85%;
+        width: 85%;
+    }
+}
+
+@media (max-width: 992px) {
+    img.crownNav {
+        height: 90%;
+        width: 90%;
+    }
+}
+
+@media (max-width: 776px) {
+    img.crownNav {
+        height: 95%;
+        width: 95%;
+    }
+}
+
+@media (max-width: 500px) {
+    img.crownNav {
+        height: 100%;
+        width: 100%;
+    }
 }
 
 .navbar-brand {
     width: 5%;
 }
+
+/*@media (max-width: 1200px) {
+    a.navbar-brand {
+        width: 10%;
+    }
+}
+
+@media (max-width: 992px) {
+    a.navbar-brand {
+        width: 15%;
+    }
+}
+
+@media (max-width: 776px) {
+    a.navbar-brand {
+        width: 20%;
+    }
+}
+
+@media (max-width: 500px) {
+    a.navbar-brand {
+        width: 25%;
+    }
+}*/
+
 
 .navigationLinks {
     color:#662c90;
@@ -65,15 +119,42 @@
 }
 
 
+.navbar-toggler {
+    background-color: #662c90;
+}
+
 /*Background Header*/
 
 #showcase {
     background-image:url(./Photos/teianna-marie-photos/teianna-marie-treasures_50.jpg);
     background-repeat: no-repeat;
-    background-position: 50% 15%;
+    background-position: 50% 17%;
     background-attachment: fixed;
     background-size: 25%;
+}
 
+@media (max-width: 1200px) {
+    #showcase {
+        background-size: 35%;
+    }
+}
+
+@media (max-width: 992px) {
+    #showcase {
+        background-size: 40%;
+    }
+}
+
+@media (max-width: 776px) {
+    #showcase {
+        background-size: 50%;
+    }
+}
+
+@media (max-width: 500px) {
+    #showcase {
+        background-size: 75%;
+    }
 }
 
 #bottom-images {
@@ -92,6 +173,12 @@
     }
   }
 
+@media (max-width: 1200px) {
+    div.mainA {
+        width: 100%;
+        
+    }
+}
 
 #left {
     opacity: .5;
@@ -100,6 +187,14 @@
 #right {
     opacity: .5;
 }
+
+@media (max-width: 500px) {
+    div.image-center {
+        text-align: center;
+    }
+}
+
+
 /*Main Article*/
 
 body {
@@ -110,6 +205,7 @@ body {
 }
 
 .mainA {
+    
     border: 5px solid #662c90;
     border-radius: 10px 10px 0px 0px;
     width: 70%;
@@ -169,6 +265,34 @@ p{
     font-weight: bolder;
 }
 
+@media (max-width: 500px) {
+    h2.theader {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 500px) {
+    h1.theader {
+        font-size: 3rem;
+    }
+}
+
+/*Testimonials*/
+
+.testPic {
+    border: #662c90 5px solid;
+    border-radius: 50%;
+    height: auto;
+    width: 100%;
+}
+
+.testCity {
+    padding-bottom: 0px;
+}
+
+.testStar {
+    color: goldenrod;
+}
 /*Footer*/
 
 .footer {
@@ -198,4 +322,17 @@ p{
 
 .tt {
     color: goldenrod;
+}
+
+@media (max-width: 1200px) {
+    div.footer {
+        width: auto;
+        
+    }
+}
+
+@media (max-width: 1200px) {
+    footer.mb-2 {
+        margin-bottom: 0px;
+    }
 }
