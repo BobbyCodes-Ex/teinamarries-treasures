@@ -13,9 +13,10 @@ box-shadow: 2px 2px 15px 2px black;
 }
 h5 {
     text-align: center;
-margin-top: 2%;
+margin-top: 4%;
+margin-bottom: 4%;
 font-weight: bold;
-
+font: x-large;
 }
 .download  {
     background-color: rgb(242,209,18);

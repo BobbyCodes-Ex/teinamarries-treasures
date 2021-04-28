@@ -8,10 +8,11 @@
 }
 .club {
     box-shadow: 5px 5px 20px 6px  #662c90;;
-    width: 80%;
     text-align: center;
-    margin: 6% 1%;
-    padding: 1%;
+width: 300px;
+height: auto;
+margin-top: 5%;
+margin-bottom: 5%;
     border-width: 9px;
     border-color: rgb(242,209,18);
     border-style:double;
