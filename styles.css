@@ -1,8 +1,9 @@
 /*Navigation*/
 
 .navigation {
-    border-top: #662c90 5px solid;
-    border-bottom: #662c90 5px solid;
+    border-style: solid;
+    border-width: 5px 0px;
+    border-image: radial-gradient(#275686,#662c90, #00B183,#23856D,#275686,#662c90) 1;;
     font-family: 'Nanum Myeongjo', serif;
     letter-spacing: 3px;
 }
@@ -205,13 +206,16 @@ body {
 }
 
 .mainA {
-    
-    border: 5px solid #662c90;
-    border-radius: 10px 10px 0px 0px;
-    width: 70%;
+    border: 5px solid transparent;
+
+    border-radius:10px 10px 0px 0px;
+    background:linear-gradient(white, white) padding-box,
+    conic-gradient(#275686,#00B183,#23856D,#662c90,#275686,#00B183,#23856D,#662c90,#275686) border-box;
+     width: 70%;
     margin: auto;
     margin-top: 350px;
 }
+
 
 .treasureClubSub {
     height: 75%;
