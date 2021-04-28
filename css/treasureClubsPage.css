@@ -20,9 +20,11 @@ margin-bottom: 5%;
 }
 .clubList{
     text-align: center;
+   padding: 5%;
 }
 li {
     list-style-type: none;
+    
 }
 lh {
     font-weight: bolder;
@@ -59,4 +61,33 @@ span {
 p {
     margin-bottom: 10%;
 }
+  
+.cardBack {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    position: absolute;
+    text-align: center;
+    right: 0;
+    left: 0;
+    top: 10px;
+    margin-top: 50%;
+  }
+  .cardFront {
+    height: 100%;
+    transform: rotateX(0deg);
+    -webkit-transform: rotateX(0deg); 
+}
+
+  .card {
+    -webkit-transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+  .card.flip {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+  }
   
