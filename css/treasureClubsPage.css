@@ -1,11 +1,6 @@
 
 
-* {
-    font-family: 'Crimson Pro', serif;
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Nanum Myeongjo', serif;
-    font-family: 'Zilla Slab', serif;   
-}
+
 .club {
     box-shadow: 5px 5px 20px 6px  #662c90;;
     text-align: center;
@@ -90,4 +85,6 @@ p {
     transform: rotateY(180deg);
     -webkit-transform: rotateY(180deg);
   }
-  
+  .testimonials{
+      padding-bottom: 50px;
+  }
