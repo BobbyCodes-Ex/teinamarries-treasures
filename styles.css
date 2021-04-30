@@ -108,7 +108,7 @@
 }
 
 .tc {
-    color: rgb(5, 170, 5);
+    color: rgb(5, 170, 5) !important;
 }
 
 .tc:hover {
@@ -342,4 +342,14 @@ p{
     footer.mb-2 {
         margin-bottom: 0px;
     }
+}
+.treasuresButton {
+    padding-bottom: 40px;
+}
+button {
+    background-color: #662c90;
+    margin-bottom: 50px;
+    padding: 5px 10px;
+    color: white;
+    
 }
