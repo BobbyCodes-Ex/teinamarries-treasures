@@ -216,6 +216,10 @@ border-bottom: 0px;
     margin-top: 350px;
 }
 
+.tpicture {
+    border: #662c90 solid 5px;
+    border-radius: 50%;
+}
 
 .treasureClubSub {
     height: 75%;
