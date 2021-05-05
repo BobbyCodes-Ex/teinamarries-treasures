@@ -207,6 +207,25 @@
 
 
 /*Main Article*/
+.headshotSize{
+    border: 5px solid transparent;
+    height: auto;
+    width: 100%;
+    border-radius: 50%;
+    background:linear-gradient(white, white) padding-box,
+    conic-gradient(#275686,#00B183,#23856D,#662c90,#275686,#00B183,#23856D,#662c90,#275686) border-box;
+}
+
+.frontImgSize{
+    height: auto;
+    width: 75%;
+    border: 3px solid #662c90;
+}
+
+.mentalResize{
+    height: auto;
+    width: 100%;
+}
 
 body {
     margin: 0;
