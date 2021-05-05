@@ -127,7 +127,7 @@
 /*Background Header*/
 
 #showcase {
-    background-image:url(./Photos/teianna-marie-photos/teianna-marie-treasures_50.jpg);
+    background-image:url(./Photos/teianna-marie-photos/teianna-marie-treasures_50_75.jpg);
     background-repeat: no-repeat;
     background-position: 50% 17%;
     background-attachment: fixed;
@@ -154,15 +154,17 @@
 
 @media (max-width: 475px) {
     #showcase {
-        background-size: 80%;
-        background-position: 50% 25%;
+        background-size: 75%;
+        background-position: 50% 20%;
+        background-attachment: none !important;
     }
 }
 
 @media (max-width: 450px) {
     #showcase {
         background-size: 75%;
-        background-position: 50% 26%;
+        background-position: 50% 20%;
+        background-attachment: none !important;
     }
 }
 
