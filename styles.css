@@ -245,6 +245,25 @@ border-bottom: 0px;
     margin-top: 350px;
 }
 
+@media (max-width: 500px) {
+    .mainA {
+        border: 5px solid transparent;
+border-bottom: 0px;
+    border-radius:10px 10px 0px 0px;
+    background:linear-gradient(white, white) padding-box,
+    conic-gradient(#275686,#00B183,#23856D,#662c90,#275686,#00B183,#23856D,#662c90,#275686) border-box;
+     width: 70%;
+    margin: auto;
+    margin-top: 65px;
+    }
+}
+
+@media (min-width: 600px) {
+    .logoMain {
+        display: none;
+    }
+}
+
 .tpicture {
     border: #662c90 solid 5px;
     border-radius: 50%;
