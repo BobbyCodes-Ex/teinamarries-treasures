@@ -320,6 +320,24 @@ p{
     width: 300px;
 }
 
+@media (max-width: 600px) {
+    img.eventPictures {
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .eventDates {
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .eventTitle {
+        text-align: center;
+    }
+}
+
 .productsTitle {
     font-size: larger;
     font-weight: bolder;
