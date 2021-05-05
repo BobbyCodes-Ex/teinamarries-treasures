@@ -1,90 +1,106 @@
-
-
-
 .club {
-    box-shadow: 5px 5px 20px 6px  #662c90;;
-    text-align: center;
-width: 300px;
-height: auto;
-margin-top: 5%;
-margin-bottom: 5%;
-    border-width: 9px;
-    border-color: rgb(242,209,18);
-    border-style:double;
-        
+  box-shadow: 5px 5px 20px 6px #662c90;
+  text-align: center;
+  width: 300px;
+  height: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-width: 9px;
+  border-color: rgb(242, 209, 18);
+  border-style: double;
 }
-.clubList{
-    text-align: center;
-   padding: 5%;
+.clubList {
+  text-align: center;
+  padding: 5%;
 }
 li {
-    list-style-type: none;
-    
+  list-style-type: none;
 }
 lh {
-    font-weight: bolder;
-    font-size: 200%;
-    color:  #662c90;
-    font-family: 'Dancing Script', cursive;
-    text-shadow: 2px 2px rgb(242,209,18);
+  font-weight: bolder;
+  font-size: 200%;
+  color: #662c90;
+  font-family: "Dancing Script", cursive;
+  text-shadow: 2px 2px rgb(242, 209, 18);
 }
 .levelPlus {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 h1 {
-    font-size: 800%;
-    text-align: center;
-    color:  #662c90;
-    margin: 0%;
-    padding: 4% 0% 1% 0%;
-    font-family: 'Dancing Script', cursive;
-    font-weight: bolder;
-    text-shadow: 3px 3px rgb(242,209,18);
+  font-size: 800%;
+  text-align: center;
+  color: #662c90;
+  margin: 0%;
+  padding: 4% 0% 1% 0%;
+  font-family: "Dancing Script", cursive;
+  font-weight: bolder;
+  text-shadow: 3px 3px rgb(242, 209, 18);
 }
 .clubPrice {
-    color:  #662c90;
-    font-weight: bold;
+  color: #662c90;
+  font-weight: bold;
 }
 .monthly {
-    padding-top: 10%;
-    margin-bottom: 0%;
-    padding-bottom: 0%;
+  padding-top: 10%;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
 }
 span {
-    margin-bottom: 10%;
+  margin-bottom: 10%;
 }
 p {
-    margin-bottom: 10%;
-}
-  
-.cardBack {
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    display: flex;
-    flex-direction: column;
-    transform: rotateY(180deg);
-    -webkit-transform: rotateY(180deg);
-    position: absolute;
-    text-align: center;
-    right: 0;
-    left: 0;
-    top: 10px;
-    margin-top: 50%;
-  }
-  .cardFront {
-    height: 100%;
-    transform: rotateX(0deg);
-    -webkit-transform: rotateX(0deg); 
+  margin-bottom: 10%;
 }
 
-  .card {
-    -webkit-transition: transform 0.6s;
-    transform-style: preserve-3d;
-  }
-  .card.flip {
-    transform: rotateY(180deg);
-    -webkit-transform: rotateY(180deg);
-  }
-  .testimonials{
-      padding-bottom: 50px;
-  }
+.cardFront {
+  height: 100%;
+
+  -webkit-transform: rotateX(0) rotateY(0);
+  transform: rotateX(0) rotateY(0);
+
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+
+  /* -- transition is the magic sauce for animation -- */
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.cardBack {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  text-align: center;
+  right: 0;
+  left: 0;
+  top: 10px;
+  margin-top: 50%;
+
+  -webkit-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+
+  /* -- transition is the magic sauce for animation -- */
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.card {
+  -webkit-transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+.card.flip {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+}
+.testimonials {
+  padding-bottom: 50px;
+}
