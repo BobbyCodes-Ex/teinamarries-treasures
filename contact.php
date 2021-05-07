@@ -100,6 +100,7 @@
                     method="post"
                     id="contactForm"
                     name="contactForm"
+                    action="<?php echo htmlentities($_SERVER['PHP_SELF']);?>" onsubmit="event.preventDefault(); validateContact();"
                   >
                     <div class="row">
                       <div class="col-md-6 form-group mb-5">
@@ -228,13 +229,37 @@
     
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
-    
+    <script src="./js/contact.js"></script>
 
   </body>
 </html>
 <?php
 
+$tableName = "treasuresform_responses";
 
+  $result = "";
+  $name = $email = $phone = $company = $reasonForContact = $message = "";
+
+  if($_SERVER['REQUEST_METHOD'] == "POST"){
+    $name = cleanse_data($_POST['name']);
+    $email = cleanse_data($_POST['email']);
+    $phone = cleanse_data($_POST['phone']);
+    $company = cleanse_data($_POST['company']);
+    $reasonForContact = cleanse_data($_POST['reasonForContact']);
+    $message = cleanse_data($_POST['message']);
+
+    contact_form_insert($tableName, $name, $email, $phone, $company, $reasonForContact, $message);
+
+    $targetEmail = "wesleyowood@gmail.com";
+    $subject = "New Contact Entry From: ".$name." ".$email;
+    $body =  "New Contact Form Entry: <br>Name: ".$name."<br>Email: ".$email."<br>Phone: ".$phone."<br>Company: ".$company."<br>reasonForContact: ".$reasonForContact."<br>Message: ".$message; 
+
+    mail($targetEmail, $subject, $body);
+  }
+
+  function cleanse_data($data){
+    return htmlspecialchars(stripslashes(trim($data)));
+  }
 
 
 
