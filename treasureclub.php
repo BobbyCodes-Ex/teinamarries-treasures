@@ -54,10 +54,10 @@
             </li>
           </ul>
           <div class="ms-auto">
-            <a href="#" class="fa fa-facebook socialIconNav fs-3"></a>
-            <a href="#" class="fa fa-instagram socialIconNav fs-3"></a>
+            <a href="https://www.facebook.com/TeinamarriesTreasures/" class="fa fa-facebook socialIconNav fs-3"></a>
+            <a href="https://www.instagram.com/teinamarrie/" class="fa fa-instagram socialIconNav fs-3"></a>
             <a href="#" class="fa fa-youtube socialIconNav fs-3"></a>
-            <a href="#" class="fa fa-linkedin socialIconNav fs-3"></a>
+            <a href="https://www.linkedin.com/in/teinamarrie-scuderi/" class="fa fa-linkedin socialIconNav fs-3"></a>
           </div>
 
         </div>
@@ -235,10 +235,10 @@
         <div class="text-center text-white">&#169; Copyright Teinamarrie's Treasures</span>. All Rights Reserved</div>
         <div class="text-center text-white">Designed by <span class="text-white">SLCC Webdev Students</span></div>
         <div>
-          <a href="#" class="fa fa-facebook socialIconFoot fs-3"></a>
-          <a href="#" class="fa fa-instagram socialIconFoot fs-3"></a>
+          <a href="https://www.facebook.com/TeinamarriesTreasures/" class="fa fa-facebook socialIconFoot fs-3"></a>
+          <a href="https://www.instagram.com/teinamarrie/" class="fa fa-instagram socialIconFoot fs-3"></a>
           <a href="#" class="fa fa-youtube socialIconFoot fs-3"></a>
-          <a href="#" class="fa fa-linkedin socialIconFoot fs-3"></a>
+          <a href="https://www.linkedin.com/in/teinamarrie-scuderi/" class="fa fa-linkedin socialIconFoot fs-3"></a>
         </div>
       </div>
     </footer>
