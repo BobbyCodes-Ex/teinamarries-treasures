@@ -23,7 +23,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-light navigation fixed-top bg-white">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"><img src="./Photos/teianna-marie-photos/teianna-marie-treasures-crown.jpg" class="crownNav"></a>
+        <a class="navbar-brand" href="index.html"><img src="./photos/teianna-marie-photos/teianna-marie-treasures-crown.jpg" class="crownNav"></a>
         <button class="navbar-toggler" id="navToggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -90,7 +90,7 @@
       </div>
       <div class="row pb-4">
         <div class="col-12 col-lg-4 image-center">
-          <img class="headshotSize img-fluid" src="./Photos/TeinamarrieScuderi-headshot.jpg">
+          <img class="headshotSize img-fluid" src="./photos/TeinamarrieScuderi-headshot.jpg">
         </div>
         <div class="col-12 col-lg-8 mt-5">
           <p>Teinamarrie Scuderi is thee Divalicious Diva and genius behind her namesake company, Teinamarrie’s Treasures, where she encourages and empowers people from all walks of life to sparkle. Her vision is to help others to attain (or regain) their own individual sparkle, so that, as a ripple effect, they spread that sparkle to others who in turn spread their own sparkle – imagine how much better, how much happier this world will be once everyone is attuned to genuinely sparkling. Think glitter bomb explosion, globally! </p>
@@ -102,14 +102,14 @@
       </div>
       <div class="row mt-5">
         <div class="col-12 col-lg-6 text-center">
-          <a href="./Photos/teianna-marie-photos/business1.png" download><img class="image-fluid imgBorder" src="./Photos/teianna-marie-photos/business1.png"></a>
+          <a href="./photos/teianna-marie-photos/business1.png" download><img class="image-fluid imgBorder" src="./photos/teianna-marie-photos/business1.png"></a>
         </div>
         <div class="col-12 col-lg-6 text-center treasureClubPhoto">
-          <a href="./Photos/teianna-marie-photos/business2.png" download><img class="image-fluid imgBorder" src="./Photos/teianna-marie-photos/business2.png"></a>
+          <a href="./photos/teianna-marie-photos/business2.png" download><img class="image-fluid imgBorder" src="./photos/teianna-marie-photos/business2.png"></a>
         </div>
       </div>
       <div class="text-center">
-        <img class="frontImgSize img-fluid my-5" src="./Photos/TeinamarrieScuderi-front view.jpg">
+        <img class="frontImgSize img-fluid my-5" src="./photos/TeinamarrieScuderi-front view.jpg">
       </div>
     </div>
 

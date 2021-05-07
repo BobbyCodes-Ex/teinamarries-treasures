@@ -24,7 +24,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-light navigation fixed-top bg-white">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"><img src="./Photos/teianna-marie-photos/teianna-marie-treasures-crown.jpg" class="crownNav"></a>
+        <a class="navbar-brand" href="index.html"><img src="./photos/teianna-marie-photos/teianna-marie-treasures-crown.jpg" class="crownNav"></a>
         <button class="navbar-toggler" id="navToggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -76,8 +76,8 @@
     <header>
       <div class="row">
         <div class="fixed-bottom" id="bottom-images">
-        <img src="./Photos/teianna-marie-photos/teianna-marie-treasures-left-4.jpg" id="left" class="img-fluid" alt="">
-        <img src="./Photos/teianna-marie-photos/teianna-marie-treasures-right-4.jpg" id="right" class="img-fluid float-end">
+        <img src="./photos/teianna-marie-photos/teianna-marie-treasures-left-4.jpg" id="left" class="img-fluid" alt="">
+        <img src="./photos/teianna-marie-photos/teianna-marie-treasures-right-4.jpg" id="right" class="img-fluid float-end">
         </div>
       </div>
     </header>
@@ -89,12 +89,12 @@
       <h2 class="text-center ebookHeader theader">eBooks</h2>
         <div class="row ">
    <div class="divineDaysSection mt-4 text-center col-lg-6">
-       <img src="./Photos/divinedays.png" class="ebook img-fluid">
+       <img src="./photos/divinedays.png" class="ebook img-fluid">
        <h5>Divine Days</h5>
        <button class="download"><a href="./otherfiles/Divine Days_Teinamarrie's Treasures.pdf">CLICK HERE TO DOWNLOAD</a></button>
 </div>
 <div class="gratiToolsSection mt-4 text-center col-lg-6">
-    <img src="./Photos/grati-tools2.jpg" class="ebook img-fluid">
+    <img src="./photos/grati-tools2.jpg" class="ebook img-fluid">
     <h5>Grati-Tools</h5>
     <button class="download"><a href="./otherfiles/Grati-Tools -Teinamarrie's Treasures.pdf">CLICK HERE TO DOWNLOAD</a></button>
 </div>
