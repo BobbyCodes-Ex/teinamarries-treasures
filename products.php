@@ -28,12 +28,12 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto mb-2 mb-lg-0 mr-5">
+          <ul class="navbar-nav mr-auto mb-2 mb-lg-0 mr-5">
             <li class="nav-item">
-              <a class="nav-link" href="index.html"><span class="navigationLinks">Home</span></a>
+              <a class="nav-link" href="index.php"><span class="navigationLinks">Home</span></a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link " href="workshops.html" id="navbarDropdown" role="button" aria-expanded="false">
+              <a class="nav-link " href="workshops.php" id="navbarDropdown" role="button" aria-expanded="false">
                 <span class="navigationLinks">Workshops</span>
               </a>
               
@@ -41,15 +41,15 @@
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <span class="navigationLinks">Shop</span>
               </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="ebooks.html">Ebooks</a></li>
-                <li><a class="dropdown-item" href="products.html">Products</a></li>
+              <ul class="dropdown-menu dropdownForNavbar" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item yellow-dropdown-item" href="ebooks.php">Ebooks</a></li>
+                <li><a class="dropdown-item yellow-dropdown-item" href="products.php">Products</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item tc" href="treasureclub.html">Treasure Chest</a></li>
+                <li><a class="dropdown-item tc" href="treasureclub.php">Treasure Chest</a></li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html" tabindex="-1" aria-disabled="true"><span class="navigationLinks">Contact</span></a>
+              <a class="nav-link" href="contact.php" tabindex="-1" aria-disabled="true"><span class="navigationLinks">Contact</span></a>
             </li>
           </ul>
           <div class="ms-auto">
@@ -63,6 +63,11 @@
       </div>
     </nav>
 
+
+
+   
+    
+   
     
 
     <!--Background Header-->
@@ -80,47 +85,40 @@
 
     <div class="container bg-light mainA">
       <div class="row">
-        <img class="img-fluid logoMain" src="./photos/teianna-marie-treasures_50.jpg">
+        <h2 class="text-center py-4 theader">Products</h2>
       </div>
-      <div class="row">
-        <h2 class="text-center py-4 theader">Welcome to Teinamarrie’s Treasures!</h2>
-      </div>
-      <div class="row">
-        <p class="text-left pb-4">Teinamarrie is a very passionate woman with many diverse and wonderful talents and interests, and Teinamarrie’s Treasures is no different. In fact, it is the culmination of all of those things in one place. She has both services and products available for purchase: from her Clutter Clearing Challenges, to her Wonderful Woman Workshops, to her Success Club and her Goal/Desire Cubes.</p>
-      </div>
-      <div class="row pb-4">
+      <div class="row pb-4 mx-2">
         <div class="col-12 col-lg-4 image-center">
-          <img class="headshotSize img-fluid" src="./Photos/TeinamarrieScuderi-headshot.jpg">
+          <p class="pb-2 productsTitle">The Goal Cube</p>
+          <img class="img-fluid mentalResize" src="./Photos/teianna-marie-photos/Goal-Cube-Photo.jpg">
         </div>
         <div class="col-12 col-lg-8 mt-5">
-          <p>Teinamarrie Scuderi is thee Divalicious Diva and genius behind her namesake company, Teinamarrie’s Treasures, where she encourages and empowers people from all walks of life to sparkle. Her vision is to help others to attain (or regain) their own individual sparkle, so that, as a ripple effect, they spread that sparkle to others who in turn spread their own sparkle – imagine how much better, how much happier this world will be once everyone is attuned to genuinely sparkling. Think glitter bomb explosion, globally! </p>
+          <p class="mt-5">Teinamarrie’s very own innovation – an acrylic 3.5 x 3.5 photo cube ready for you to place your magazine pictures and words on for a simple, easy to use goal setting, desire dreaming or visioning tool. And with its size can easily work in any small space like on a dresser or in a cubicle!</p>
+          <div class="mt-4 image-center">
+            <p class="d-inline">$7.00</p>
+            <button type="button" >Purchase</button>
+          </div>
         </div>
       </div>
-
-      <div class="text-center mt-4">
-        <button type="button" class="btn btn-treasures btn-lg">Find Your Treasures!</button>
-      </div>
-      <div class="row mt-5">
-        <div class="col-12 col-lg-6 text-center">
-          <a href="./Photos/teianna-marie-photos/business1.png" download><img class="image-fluid imgBorder" src="./Photos/teianna-marie-photos/business1.png"></a>
+      <div class="row pb-4 mx-2">
+        <div class="col-12 col-lg-4 image-center">
+          <p class="pb-2 mt-2 productsTitle">Clear Your Clutter</p>
+          <img class="img-fluid mentalResize" src="./Photos/mentalclutter.jpeg">
         </div>
-        <div class="col-12 col-lg-6 text-center treasureClubPhoto">
-          <a href="./Photos/teianna-marie-photos/business2.png" download><img class="image-fluid imgBorder" src="./Photos/teianna-marie-photos/business2.png"></a>
+        <div class="col-12 col-lg-8 mt-5">
+          <p class="mt-5">Learn how to clear different types of Clutter in your Life. Clutter shows up in a variety of ways like Physical, Body, Emotional, Mental, Money, Wallet and Spiritual. There are simple ways to Clear Your Clutter.</p>
+          <div class="mt-4 image-center">
+            <p class="d-inline">$20.19</p>
+            <button type="button">Purchase</button>
+          </div>
         </div>
-      </div>
-      <div class="text-center">
-        <img class="frontImgSize img-fluid my-5" src="./Photos/TeinamarrieScuderi-front view.jpg">
       </div>
     </div>
 
     <!--Footer-->
-    <footer class="mb-2">
-      <div class="footer">
-
-        
-
-        <div class="text-center text-white">&#169; Copyright Teinamarrie's Treasures. All Rights Reserved</div>
-
+    <footer>
+      <div class="footer mb-2">
+        <div class="text-center text-white">&#169; Copyright Teinamarrie's Treasures</span>. All Rights Reserved</div>
         <div class="text-center text-white">Designed by <span class="text-white">SLCC Webdev Students</span></div>
         <div>
           <a href="#" class="fa fa-facebook socialIconFoot fs-3"></a>

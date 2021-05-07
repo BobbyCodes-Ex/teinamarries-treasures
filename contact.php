@@ -41,10 +41,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto mb-2 mb-lg-0 mr-5">
             <li class="nav-item">
-              <a class="nav-link" href="index.html"><span class="navigationLinks">Home</span></a>
+              <a class="nav-link" href="index.php"><span class="navigationLinks">Home</span></a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link " href="workshops.html" id="navbarDropdown" role="button" aria-expanded="false">
+              <a class="nav-link " href="workshops.php" id="navbarDropdown" role="button" aria-expanded="false">
                 <span class="navigationLinks">Workshops</span>
               </a>
               
@@ -53,14 +53,14 @@
                 <span class="navigationLinks">Shop</span>
               </a>
               <ul class="dropdown-menu dropdownForNavbar" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item yellow-dropdown-item" href="ebooks.html">Ebooks</a></li>
-                <li><a class="dropdown-item yellow-dropdown-item" href="products.html">Products</a></li>
+                <li><a class="dropdown-item yellow-dropdown-item" href="ebooks.php">Ebooks</a></li>
+                <li><a class="dropdown-item yellow-dropdown-item" href="products.php">Products</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item tc" href="treasureclub.html">Treasure Chest</a></li>
+                <li><a class="dropdown-item tc" href="treasureclub.php">Treasure Chest</a></li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html" tabindex="-1" aria-disabled="true"><span class="navigationLinks">Contact</span></a>
+              <a class="nav-link" href="contact.php" tabindex="-1" aria-disabled="true"><span class="navigationLinks">Contact</span></a>
             </li>
           </ul>
           <div class="ms-auto">
@@ -232,3 +232,10 @@
 
   </body>
 </html>
+<?php
+
+
+
+
+
+?>
