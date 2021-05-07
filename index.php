@@ -70,8 +70,8 @@
     <header>
       <div class="row">
         <div class="fixed-bottom" id="bottom-images">
-        <img src="./Photos/teianna-marie-photos/teianna-marie-treasures-left-4.jpg" id="left" class="img-fluid" alt="">
-        <img src="./Photos/teianna-marie-photos/teianna-marie-treasures-right-4.jpg" id="right" class="img-fluid float-end">
+        <img src="./photos/teianna-marie-photos/teianna-marie-treasures-left-4.jpg" id="left" class="img-fluid" alt="">
+        <img src="./photos/teianna-marie-photos/teianna-marie-treasures-right-4.jpg" id="right" class="img-fluid float-end">
         </div>
       </div>
     </header>

@@ -23,7 +23,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-light navigation fixed-top bg-white">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"><img src="./Photos/teianna-marie-photos/teianna-marie-treasures-crown.jpg" class="crownNav"></a>
+        <a class="navbar-brand" href="index.html"><img src="./photos/teianna-marie-photos/teianna-marie-treasures-crown.jpg" class="crownNav"></a>
         <button class="navbar-toggler" id="navToggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -69,8 +69,8 @@
     <header>
       <div class="row">
         <div class="fixed-bottom" id="bottom-images">
-        <img src="./Photos/teianna-marie-photos/teianna-marie-treasures-left-4.jpg" id="left" class="img-fluid" alt="">
-        <img src="./Photos/teianna-marie-photos/teianna-marie-treasures-right-4.jpg" id="right" class="img-fluid float-end">
+        <img src="./photos/teianna-marie-photos/teianna-marie-treasures-left-4.jpg" id="left" class="img-fluid" alt="">
+        <img src="./photos/teianna-marie-photos/teianna-marie-treasures-right-4.jpg" id="right" class="img-fluid float-end">
         </div>
       </div>
     </header>
@@ -86,7 +86,7 @@
       </div>
       <div class="row pb-4 mb-5 ms-4">
         <div class="col-12 col-lg-4 image-center">
-          <img class="img-fluid eventPictures"src="./Photos/teianna-marie-photos/quote-placeholder-1.png">
+          <img class="img-fluid eventPictures"src="./photos/teianna-marie-photos/quote-placeholder-1.png">
         </div>
         <div class="col-12 col-lg-8 mt-1">
           <p class="eventDates"><span class="eventDates">April 19-25, 2021:</span> ONLINE</p>
@@ -106,7 +106,7 @@
       </div>
       <div class="row pb-4 mb-5 ms-4">
         <div class="col-12 col-lg-4 image-center">
-          <img class="img-fluid eventPictures" src="./Photos/teianna-marie-photos/quote-placeholder-2.jpg">
+          <img class="img-fluid eventPictures" src="./photos/teianna-marie-photos/quote-placeholder-2.jpg">
         </div>
         <div class="col-12 col-lg-8 mt-1">
           <p class="eventDates"><span class="eventDates">April 19-25, 2021:</span> ONLINE</p>
@@ -126,7 +126,7 @@
       </div>
       <div class="row pb-4 mb-5 ms-4">
         <div class="col-12 col-lg-4 image-center">
-          <img class="img-fluid eventPictures" src="./Photos/teianna-marie-photos/quot-placeholder-3.jpg">
+          <img class="img-fluid eventPictures" src="./photos/teianna-marie-photos/quot-placeholder-3.jpg">
         </div>
         <div class="col-12 col-lg-8 mt-1">
           <p class="eventDates"><span class="eventDates">April 19-25, 2021:</span> ONLINE</p>
@@ -146,7 +146,7 @@
       </div>
       <div class="row pb-4 mb-5 ms-4">
         <div class="col-12 col-lg-4 image-center">
-          <img class="img-fluid eventPictures" src="./Photos/teianna-marie-photos/quote-placeholder-4.jpg">
+          <img class="img-fluid eventPictures" src="./photos/teianna-marie-photos/quote-placeholder-4.jpg">
         </div>
         <div class="col-12 col-lg-8 mt-1">
           <p class="eventDates"><span class="eventDates">April 19-25, 2021:</span> ONLINE</p>
@@ -166,7 +166,7 @@
       </div>
       <div class="row pb-4 mb-5 ms-4">
         <div class="col-12 col-lg-4 image-center">
-          <img class="img-fluid eventPictures" src="./Photos/teianna-marie-photos/quote-placeholder-5.jpg">
+          <img class="img-fluid eventPictures" src="./photos/teianna-marie-photos/quote-placeholder-5.jpg">
         </div>
         <div class="col-12 col-lg-8 mt-1">
           <p class="eventDates"><span class="eventDates">April 19-25, 2021:</span> ONLINE</p>
