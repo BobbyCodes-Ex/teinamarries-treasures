@@ -248,11 +248,11 @@ $tableName = "treasuresform_responses";
     $reasonForContact = cleanse_data($_POST['reasonForContact']);
     $message = cleanse_data($_POST['message']);
 
-    contact_form_insert($tableName, $name, $email, $phone, $company, $reasonForContact, $message);
+    // contact_form_insert($tableName, $name, $email, $phone, $company, $reasonForContact, $message);
 
-    $targetEmail = "wesleyowood@gmail.com";
+    $targetEmail = "elsasser01@gmail.com, wesleyowood@gmail.com";
     $subject = "New Contact Entry From: ".$name." ".$email;
-    $body =  "New Contact Form Entry: <br>Name: ".$name."<br>Email: ".$email."<br>Phone: ".$phone."<br>Company: ".$company."<br>reasonForContact: ".$reasonForContact."<br>Message: ".$message; 
+    $body =  "New Contact Form Entry: \nName: ".$name."\nEmail: ".$email."\nPhone: ".$phone."\nCompany: ".$company."\nReason For Contact: ".$reasonForContact."\nMessage: ".$message; 
 
     mail($targetEmail, $subject, $body);
   }
