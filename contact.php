@@ -234,8 +234,9 @@
   </body>
 </html>
 <?php
-
-$tableName = "treasuresform_responses";
+  include "database.php";
+  
+  $tableName = "treasuresform_responses";
 
   $result = "";
   $name = $email = $phone = $company = $reasonForContact = $message = "";
@@ -248,7 +249,7 @@ $tableName = "treasuresform_responses";
     $reasonForContact = cleanse_data($_POST['reasonForContact']);
     $message = cleanse_data($_POST['message']);
 
-    // contact_form_insert($tableName, $name, $email, $phone, $company, $reasonForContact, $message);
+    contact_form_insert($tableName, $name, $email, $phone, $company, $reasonForContact, $message);
 
     $targetEmail = "elsasser01@gmail.com, wesleyowood@gmail.com";
     $subject = "New Contact Entry From: ".$name." ".$email;
