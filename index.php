@@ -98,7 +98,7 @@
       </div>
 
       <div class="text-center mt-4">
-        <button type="button" class="btn btn-treasures btn-lg">Find Your Treasures!</button>
+        <a href="treasureclub.php"><button type="button" class="btn btn-treasures btn-lg" href="treasureclub.php">Find Your Treasures!</button></a>
       </div>
       <div class="row mt-5">
         <div class="col-12 col-lg-6 text-center">

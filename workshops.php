@@ -189,7 +189,7 @@
         10% off your first seminar!
       </div>
       <div class="text-center mt-4 treasuresButton">
-        <button type="button" class="btn btn-treasures btn-lg">Find Your Treasures!</button>
+        <a href="treasureclub.php"><button type="button" class="btn btn-treasures btn-lg">Find Your Treasures!</button></a>
       </div>
     </div>
 
